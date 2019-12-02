@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        >
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_centerVertical="true"
+
+            >
+
+            <ImageView
+                android:id="@+id/image_back"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:clickable="false"
+                android:longClickable="false"
+                android:padding="3dp"
+                android:src="@drawable/arrow_left" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:clickable="false"
+                android:longClickable="false"
+                android:text="@string/back"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/fl"
+            >
+            <TextView
+                android:id="@+id/tv_no_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:text="@string/there_are_no_products_to_display"
+                android:visibility="gone"
+                />
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <FrameLayout
+            android:id="@+id/fl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <Button
+                    android:id="@+id/btn_cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:text="@string/cancel_order"
+                    android:background="@color/discount_color"
+                    android:visibility="gone"
+                    android:textAllCaps="false"
+                    />
+                <!--<TextView
+                    android:id="@+id/tv_order_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:background="@color/colorPrimary"
+                    android:visibility="ر"
+                    />-->
+                <Button
+                    android:id="@+id/btn_collected"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:text="@string/order_collected3"
+                    android:background="@drawable/edt_search_bg_cover_map"
+                    android:visibility="gone"
+                    />
+            </LinearLayout>
+
+
+        </FrameLayout>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

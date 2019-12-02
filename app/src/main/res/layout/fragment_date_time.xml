@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimary"
+        >
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+
+            >
+            <ImageView
+                android:id="@+id/image_back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/arrow_left"
+                android:padding="8dp"
+                android:clickable="false"
+                android:longClickable="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:clickable="false"
+                android:longClickable="false"
+                android:text="@string/back"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:text="@string/delivery_time2"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        >
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_above="@id/ll"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                app:cardCornerRadius="8dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                app:contentPadding="15dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+
+                    >
+<!--
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimary"
+                        android:gravity="center"
+                        android:text="@string/the_arrival_time_will_be_determined_when_the_delegate_accepts_your_order"
+                        android:layout_marginBottom="30dp"
+                        />
+-->
+                    <TextView
+                        android:id="@+id/tv_12_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ll_from_to"
+                        android:minHeight="30dp"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:gravity="center"
+                        android:textColor="@color/colorPrimary"
+                        android:text="@string/from_12_00_to_2_00"
+                        />
+                    <TextView
+                        android:id="@+id/tv_2_4"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ll_from_to"
+                        android:minHeight="30dp"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:gravity="center"
+                        android:textColor="@color/colorPrimary"
+                        android:text="@string/from_2_00_to_4_00"
+                        android:layout_marginTop="8dp"
+                        />
+                    <TextView
+                        android:id="@+id/tv_4_6"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ll_from_to"
+                        android:minHeight="30dp"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:textColor="@color/colorPrimary"
+                        android:text="@string/from_4_00_to_6_00"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_6_8"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ll_from_to"
+                        android:minHeight="30dp"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:textColor="@color/colorPrimary"
+                        android:text="@string/from_6_00_to_8_00"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_8_10"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ll_from_to"
+                        android:minHeight="30dp"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:textColor="@color/colorPrimary"
+                        android:text="@string/from_8_00_to_10_00"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/tv_date_time_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="35dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:maxLines="2"
+                android:background="@color/colorPrimary"
+                />
+            <FrameLayout
+                android:id="@+id/fl_save"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/edt_search_bg_cover_map"
+                android:textColor="@color/white"
+                android:textSize="15sp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:longClickable="false"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/image_arrow"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:clickable="false"
+                        android:longClickable="false"
+                        android:padding="3dp"
+                        android:src="@drawable/arrow_left" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="false"
+                        android:longClickable="false"
+                        android:text="@string/save_delivery_time"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

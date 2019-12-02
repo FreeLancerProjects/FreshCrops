@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+    <!--AIzaSyBrIRDX4KdyhUhPyweQiaomxcaqpBFaHZs -->
+
+
+    <string name="app_name">محاصيل طازجة</string>
+
+    <string name="map_api_key">AIzaSyCbc2Y5AIwZ8uUeHRUXiozGN3CnpjKT0oI</string>
+
+    <string name="notifications">الاشعارات</string>
+
+    <string name="si_su">قم بتسجيل الدخول أو إنشاء حساب جديد .</string>
+
+    <string name="ok">حسنا</string>
+
+    <string name="sign_in">تسجيل الدخول</string>
+
+    <string name="back">عودة</string>
+
+    <string name="sign_in_btn">دخول</string>
+
+    <string name="new_account">تسجيل جديد</string>
+
+    <string name="forget_password_click_here">هل نسيت كلمة المرور ؟ إضغط هنا.</string>
+
+    <string name="change_language_to_english">تغيير اللغة الى الانجليزية.</string>
+
+    <string name="change_language_to_arabic">تغيير اللغة الى العربية</string>
+
+    <string name="open_sesame">تخطي</string>
+
+    <string name="add_delegate">سجل كمندوب</string>
+
+    <string name="field_req">الحقل مطلوب</string>
+
+    <string name="inv_phone">رقم الجوال غير صحيح</string>
+
+    <string name="signning_in">جار تسجيل الدخول</string>
+
+    <string name="personal_information">المعلومات الشخصية</string>
+
+    <string name="full_name">الاسم رباعى</string>
+
+    <string name="male">ذكر</string>
+
+    <string name="female">انثى</string>
+
+    <string name="gender">الجنس</string>
+
+    <string name="upload_personal_photo">رفع الصورة الشخصية</string>
+
+    <string name="_500_500_pixel">500 * 500 بكسل</string>
+
+    <string name="identity_card">رفع صورة بطاقة الاحوال</string>
+
+    <string name="information_and_privacy_in_safety">معلوماتك وخصوصياتك فى امان</string>
+
+    <string name="phone">رقم الهاتف</string>
+
+    <string name="vehicle_information">معلومات المركبة</string>
+
+    <string name="driving_license">رفع صورة الاستمارة</string>
+
+    <string name="the_license_must_be_valid">يجب ان تكون الاستمارة سارية المفعول</string>
+
+    <string name="vehicle_license">رفع صورة رخصة القيادة</string>
+
+    <string name="vehicle_photo">صورة المركبة</string>
+
+    <string name="front_photo">رفع صورة المركبة من الامام</string>
+
+    <string name="back_photo">رفع صورة المركبة من الخلف</string>
+
+    <string name="the_license_must_be_valid2">يجب ان تكون الرخصة سارية المفعول</string>
+
+    <string name="approve_terms_and_condition">الموافقة على</string>
+
+    <string name="sign_up">سجل</string>
+
+    <string name="terms_and_conditions">الشروط والاحكام</string>
+
+    <string name="pers_photo_req">الصورة الشخصية مطلوبة</string>
+
+    <string name="id_photo_req">صورة بطاقة الاحوال مطلوبة</string>
+
+    <string name="license_photo_required">صورة استمارة المركبة مطلوبة</string>
+
+    <string name="driving_photo_req">صورة رخصة القيادة مطلوبة</string>
+
+    <string name="front_vehicle_photo">صورة المركبة من الامام مطلوبة</string>
+
+    <string name="back_vehicle_photo">صورة المركبة من الخلف مطلوبة</string>
+
+    <string name="delg_su">تسجيل مندوب</string>
+
+    <string name="perm_image_denied">لم يتمكن التطبيق للوصل الى الصور</string>
+
+    <string name="accept">موافق</string>
+
+    <string name="cnt_sign_up">لا يمكنك التسجيل دون قبول الشروط والاحكام</string>
+
+    <string name="recover_password">إستعادة كلمة المرور</string>
+
+    <string name="email_address">البريد الالكتروني</string>
+
+    <string name="we_will_send_you_a_link_to_on_the_email_recover_your_password">سنرسل لك كلمة المرور الجديدة الخاص بك على رقم الجوال الخاص بك</string>
+
+    <string name="inv_email">البريد الالكتروني غير صحيح</string>
+
+    <string name="wait">إنتظر قليلا...</string>
+
+    <string name="search">إبحث..</string>
+
+    <string name="departments">عرض جميع الاقسام</string>
+
+    <string name="home">الرئيسية</string>
+
+    <string name="offers">العروض</string>
+
+    <string name="cart">سلتي</string>
+
+    <string name="my_order">طلباتي</string>
+
+    <string name="me">حسابي</string>
+
+    <string name="my_notification">الاشعارات</string>
+
+    <string name="discounts">الخصومات</string>
+
+    <string name="review_purchases">مراجعة المشتريات</string>
+
+    <string name="delivery_and_address">رسوم التوصيل والعنوان</string>
+
+    <string name="payment_and_confirmation">الدفع والتأكيد</string>
+
+    <string name="sales_tax">ضريبة المبيعات</string>
+
+    <string name="products_cost">سعر المنتجات</string>
+
+    <string name="total">الاجمالي</string>
+
+    <string name="continuee">المتابعة</string>
+
+    <string name="first_name">الاسم الاول</string>
+
+    <string name="last_name">اسم العائلة</string>
+
+    <string name="address">العنوان</string>
+
+    <string name="select_location_from_map">حدد الموقع عبر الخريطة </string>
+
+    <string name="building_number_street_name">الرجاء كتابة رقم المبنى واسم الشارع..</string>
+
+    <string name="any_feedback_for_delegate">هل لديك ملاحظات للمندوب ؟</string>
+
+    <string name="feedback">ملاحظات</string>
+
+    <string name="delivery_time">وقت التوصيل</string>
+
+    <string name="select_date_and_time">حدد الوقت والتاريخ</string>
+
+    <string name="discount_coupon">كوبون التخفيض</string>
+
+    <string name="active">تفعيل</string>
+
+    <string name="payment">طريقة الدفع</string>
+
+    <string name="order_summary">ملخص الطلب</string>
+
+    <string name="total2">إجمالي قيمة الطلب</string>
+
+    <string name="delivery_cost">تكلفة التوصيل</string>
+
+    <string name="card_number">رقم البطاقة</string>
+
+    <string name="expiration">الصلاحية</string>
+
+    <string name="password2">الرقم السري</string>
+
+    <string name="confirm">تأكيد الطلب</string>
+
+    <string name="type_your_address">إكتب عنوانك...</string>
+
+    <string name="select_location_on_map">حدد موقعك على الخريطة</string>
+
+    <string name="no_search_results">لا توجد نتائج البحث</string>
+
+    <string name="allow_dukkan_to_access_this_device_s_location">السماح للمحاصيل الطازجة للوصول لموقك ؟</string>
+
+    <string name="allow">السماح</string>
+
+    <string name="deny">الرفض</string>
+
+    <string name="gps_perm_denied">الوصول لتحديد موقع الجهاز مرفوض</string>
+
+    <string name="cnt_get_loc">لايمكن تحديد موقعك تحقق من الاتصال بالانترنت</string>
+
+    <string name="save_your_location">حفظ الموقع</string>
+
+    <string name="supermarket">هايبر ماركت</string>
+
+    <string name="something">خطأ تحقق من الاتصال بالانترنت</string>
+
+    <string name="undo">تراجع</string>
+
+    <string name="There_are_no_departments_to_display">لا يوجد اقسام لعرضها</string>
+
+    <string name="there_are_no_products_to_display">لا توجد منتجات لعرضها</string>
+
+    <string name="discount">خصم</string>
+
+    <string name="rsa">ر.س</string>
+
+    <string name="add_to_cart">أضف للسلة</string>
+
+    <string name="similar_products">منتجات مشابهة</string>
+
+    <string name="ch_size">إختر الحجم</string>
+
+    <string name="empty_cart">السلة فارغة</string>
+
+    <string name="wait_our_offers">إنتظر عروضنا</string>
+
+    <string name="cur_order">الطلبات الحالية</string>
+
+    <string name="prv_order">الطلبات السابقة</string>
+
+    <string name="password">كلمة المرور</string>
+
+    <string name="contact_us">خدمة العملاء</string>
+
+    <string name="about_dukkan">عن التطبيق</string>
+
+    <string name="share">شارك التطبيق</string>
+
+    <string name="change_language">تغيير اللغة</string>
+
+    <string name="lang">اللغة</string>
+
+    <string name="update_password">تعديل كلمة المرور</string>
+
+    <string name="current_password">كلمة المرور الحالية</string>
+
+    <string name="new_password">كلمة المرور الجديدة</string>
+
+    <string name="update">تعديل</string>
+
+    <string name="cancel">إلغاء</string>
+
+    <string name="update_phone">تعديل رقم الهاتف</string>
+
+    <string name="message">الرسالة</string>
+
+    <string name="send">إرسال</string>
+
+    <string name="succ">تم بنجاح</string>
+
+    <string name="failed">فشل حاول مرة اخرى لاحقا</string>
+
+    <string name="recent_search">آخر ماقمت بالبحث عنة</string>
+
+    <string name="search2">إبحث</string>
+
+    <string name="no_products_searched_for_recently">لم يتم البحث عن منتجات مؤخرا</string>
+
+    <string name="no_ser_res">لا توجد نتائج للبحث</string>
+
+    <string name="recently_visited">زرت مؤخرا</string>
+
+    <string name="delivery_time2">وقت التوصيل</string>
+
+    <string name="choose_delivery_time">إختر وقت التوصيل :</string>
+
+    <string name="from">من :</string>
+
+    <string name="to">الى :</string>
+
+    <string name="save_delivery_time">حفظ وقت التوصيل</string>
+
+    <string name="the_arrival_time_will_be_determined_when_the_delegate_accepts_your_order">سيتم تحديد وقت التوصل عند قبول المندوب لطلبك.</string>
+
+    <string name="delv_cost">تكلفة التوصيل :</string>
+
+    <string name="less_than_2_hour">أقل من ساعتين</string>
+
+    <string name="within_2_hour">خلال ساعتين</string>
+
+    <string name="delivered_order_to_your_current_location">هل تريد توصيل طلبك لعنوانك الحالى ؟</string>
+
+    <string name="sel_delv_loc">إختر عنوان توصيل طلبك.</string>
+
+    <string name="sel_delv_time">إختر وقت التوصيل</string>
+
+    <string name="congratulation">تهانينا</string>
+
+    <string name="you_have_received_a_discount_of">تم حصولك على خصم</string>
+
+    <string name="on_the_price_of_the_products">على سعر المنتجات</string>
+
+    <string name="get_it">إحصل عليها الان</string>
+
+    <string name="coup_not_active">الكوبون غير فعال</string>
+
+    <string name="coupon_value">قيمة الكوبون</string>
+
+    <string name="your_order_successfully_confirmed_your_order_number_is">تم تأكيد الطلب بنجاح! رقم الطلب هو</string>
+
+    <string name="follow_order">تتبع طلبك</string>
+
+    <string name="back2">عودة للرئيسية</string>
+
+    <string name="inc_phonr_password">رقم الجوال او كلمة المرور غير صحيح</string>
+
+    <string name="signingup">جار انشاء حساب جديد...</string>
+
+    <string name="phone_number_exists">رقم الجوال تم التسجيل بة من قبل</string>
+
+    <string name="declined_orders">الطلبات المنفذة</string>
+
+    <string name="refused_orders">الطلبات المرفوضة</string>
+
+    <string name="total3">العائد الاجمالي</string>
+
+    <string name="credit_limit">الحد الائتماني</string>
+
+    <string name="dukkan_receivables">مستحقات محاصيل طازجة</string>
+
+    <string name="my_receivable">مستحقاتي</string>
+
+    <string name="transformation">حسابات التحويل</string>
+
+    <string name="phone_number_not_exists">لم يتم التسجيل برقم الجوال من قبل</string>
+
+    <string name="sgin_out">جار تسجيل الخروج...</string>
+
+    <string name="sign_out">تسجيل الخروج</string>
+
+    <string name="order_sent_successfully">تم إرسال الطلب بنجاح</string>
+
+    <string name="welcome_delegate_not">مرحبا بك فى محاصيل طازجة سيتم التحقق من بيانات التسجيل كمندوب وإرسال لك اشعار عند الموافقة على تفعيل حسابك.</string>
+
+    <string name="inc_img_path">مسار الصور غير صحيح</string>
+
+    <string name="updating_phone">جار تعديل رقم الجوال...</string>
+
+    <string name="incorrect_old_password">كلمة المرور القديمة غير صحيحة</string>
+
+    <string name="new_orders">الطلبات الجديدة</string>
+
+    <string name="order_number">رقم الطلب</string>
+
+    <string name="order_status">حالة الطلب</string>
+
+    <string name="details">عرض الطلب</string>
+
+    <string name="just_now">الان</string>
+
+    <string name="a_minute_ago">منذ دقيقة</string>
+
+    <string name="min">د</string>
+
+    <string name="an_hour_ago">منذ ساعة</string>
+
+    <string name="hs">س</string>
+
+    <string name="yesterday">أمس</string>
+
+    <string name="day">يوم</string>
+
+    <string name="not_approved">لم يتم الموافقة علية</string>
+
+    <string name="done2">تم التنفيذ</string>
+
+    <string name="delegate_accept_order">المندوب وافق على طلبك</string>
+
+    <string name="collecting_order">جار التجميع</string>
+
+    <string name="order_collected">تم التجميع</string>
+
+    <string name="delivering_order">جار التوصيل</string>
+
+    <string name="no_orders_to_display">لا توجد طلبات لعرضها</string>
+
+    <string name="panda">سوبر ماركت بنده,هايبر بنده</string>
+
+    <string name="show_products">عرض المنتجات المطلوبة</string>
+
+    <string name="client_name">إسم المستلم</string>
+
+    <string name="show_address_on_map">عرض الموقع على الخريطة</string>
+
+    <string name="notes">ملاحظات العميل</string>
+
+    <string name="accept_order">قبول الطلب</string>
+
+    <string name="refuse_order">تخطي الطلب</string>
+
+    <string name="delegate">مندوب طلبك</string>
+
+    <string name="order_state">حالة الطلب</string>
+
+    <string name="mada">مدى</string>
+
+    <string name="visa">فيزا</string>
+
+    <string name="send2">إرسال</string>
+
+    <string name="type_a_message">اكتب رسالتك...</string>
+
+    <string name="access_image_denied">غير مسموح للوصول الى الصور</string>
+
+    <string name="minutes">دقيقة</string>
+
+    <string name="hours">ساعة</string>
+
+    <string name="seconds">ثانية</string>
+
+    <string name="deliver_order_less_2_hour">تسليم الطلب في اقل من ساعتين</string>
+
+    <string name="deliver_order_more_2_hour">تسليم الطلب في ساعتين او اكثر</string>
+
+    <string name="the_order_accepted_by_another_delegate">تم قبول الطلب من مندوب آخر.</string>
+
+    <string name="the_cart_contains">السلة تحتوي على</string>
+
+    <string name="item">عنصر</string>
+
+    <string name="delete_items">تفريغ السلة ؟</string>
+
+    <string name="delete">حذف</string>
+
+    <string name="collect_orders">تجميع الطلب</string>
+
+    <string name="delegate_accepted_order">تم وضع طلبك واستلامة من المندوب</string>
+
+    <string name="order_number_is">رقم طلبك هو</string>
+
+    <string name="delegate_collecting_order">يقوم المندوب بتجميع طلبك</string>
+
+    <string name="order_collected2">انتهى المندوب من تجميع طلبك</string>
+
+    <string name="delivering_order_to_your_destination">جار توصيل طلبك للوجهة المحددة</string>
+
+    <string name="order_delivered_successfully">تم توصيل طلبك بنجاح</string>
+
+    <string name="we_are_pleased_to_serve_you">شكرا لك على طلبك من تطبيق محاصيل طازجة اسعدتنا خدمتك</string>
+
+    <string name="profile">حسابي</string>
+
+    <string name="products">منتجات الطلب</string>
+
+    <string name="request_again">الطلب مرة اخرى</string>
+
+    <string name="display_bill">عرض فاتورة</string>
+
+    <string name="no_notes">لا توجد ملاحظات</string>
+
+    <string name="bill_photo">صورة الفاتورة</string>
+
+    <string name="order_cost">تكلفة الطلب</string>
+
+    <string name="no_alternative_phone">لا يوجد رقم جوال بديل</string>
+
+    <string name="alter">بديل</string>
+
+    <string name="welcome_to_Dukkan">اهلا بك في تطبيق المحاصيل الطازجة شكرا لانضمامك معنا</string>
+
+    <string name="if_product_is_not_available">إن لم يتوفر هذا المنتج ؟</string>
+
+    <string name="amount">الكمية</string>
+
+    <string name="add_alternative_product">أضف المنتج البديل</string>
+
+    <string name="no_alternative_products">لا توجد منتجات بديلة</string>
+
+    <string name="not_need_to_add_alternative">لا اريد إضافة منتج بديل</string>
+
+    <string name="coupon_not_active">الكوبون غير مفعل</string>
+
+    <string name="use_coupon">قيمة الطلب عند إستخدام الكوبون</string>
+
+    <string name="use_points">قيمة الطلب عند إستخدام النقط</string>
+
+    <string name="type_the_word">اكتب كلمة </string>
+
+    <string name="to_get_the_discount">للحصول على الخصم</string>
+
+    <string name="or">أو</string>
+
+    <string name="words_not_match">الكلمتين غير متطابقتين</string>
+
+    <string name="points">النقاط</string>
+
+    <string name="cost">التكلفة</string>
+
+    <string name="show_alternative">عرض البديل</string>
+
+    <string name="alternative_product">المنتج البديل</string>
+
+    <string name="order_collected3">تم التجميع</string>
+
+    <string name="start_delivery">بدء التوصيل</string>
+
+    <string name="finish">تم التوصيل</string>
+
+    <string name="dele">حذف ؟</string>
+
+    <string name="products_cost3">اجمالي قيمة المنتجات</string>
+
+    <string name="upload_bill_photo">رفع صورة الفاتورة</string>
+
+    <string name="ch_bill_img">إختر صورة الفاتورة</string>
+
+    <string name="suggest_an_alternative">إقترح منتج بديل</string>
+
+    <string name="not_need_an_alternative">لا أرغب في تحديد بديل</string>
+
+    <string name="in_the_event_any_alternative">في حال عدم توفر هذا المنتج او في حال نفاذ الكمية سيقوم المندوب بتوصيل المنتج أو بدون توصيل أي بديل</string>
+
+    <string name="no_an_alternative_produce_add_this_current_product">لا يوجد منتج بديل هل تريد إضافة المنتج الحالي ؟</string>
+
+    <string name="add_current_product">إضافة المنتج الحالي</string>
+
+    <string name="suggestions_from_dukkan">مقترحات من المحاصيل الطازجة</string>
+
+    <string name="new_order">طلب جديد</string>
+
+    <string name="order_delivered">تم التوصيل</string>
+
+    <string name="cancel_order">إلغاء الطلب لعدم توافر المنتجات</string>
+
+    <string name="alternative_phone">رقم جوال بديل</string>
+
+    <string name="call">اتصال</string>
+
+    <string name="membership_id">رقم العضوية</string>
+
+    <string name="update_order">عدل على طلبك</string>
+
+    <string name="del_for_free">التوصيل مجاني</string>
+
+    <string name="ord_cancel_sent_again">جميع منتجات الطلب غير متوفره تم ارسال الطلب مره اخرى للمندوبين اخرين</string>
+
+    <string name="sorry">عفوا</string>
+
+    <string name="you_can_not_complete_the_order">لايمكنك إكمال الطلب. قيمة المنتجات اقل من</string>
+
+    <string name="coupon_was_used">تم استخدام الكوبون</string>
+
+    <string name="coupon_disabled">تم تعطيل الكوبون</string>
+
+    <string name="coupon_nactive">الكوبون غير فعال</string>
+
+    <string name="coupon_active_in_order_cost_more_than">سيتم تفعيل الكوبون عندما يكون سعر المنتجات اكثر من</string>
+
+    <string name="active2">مفعل</string>
+
+    <string name="inactive">غير مفعل</string>
+
+    <string name="enter">أدخل</string>
+
+    <string name="cannot_update_order">لا يمكنك تعديل طلبك الان تم استلام طلبك من المندوب</string>
+
+    <string name="order_updated_successfully">تم تعديل الطلب بنجاح</string>
+
+    <string name="rate_of_delegate">تقييم المندوب</string>
+
+    <string name="comment">تعليقك</string>
+
+    <string name="add_rate">أضف تقييم</string>
+
+    <string name="excellent">ممتاز</string>
+
+    <string name="moderate">متوسط</string>
+
+    <string name="bad">سيء</string>
+    <string name="fresh">ظازجة</string>
+    <string name="crops">محاصيل</string>
+    <string name="ch_pm_mthd">من فضلك اختر طريقة الدفع</string>
+    <string name="from_12_00_to_2_00">من 12:00 الى 2:00</string>
+    <string name="from_2_00_to_4_00">من 2:00 الى 4:00</string>
+    <string name="from_4_00_to_6_00">من 4:00 الى 6:00</string>
+    <string name="from_6_00_to_8_00">من 6:00 الى 8:00</string>
+    <string name="from_8_00_to_10_00">من 8:00 الى 10:00</string>
+
+</resources>

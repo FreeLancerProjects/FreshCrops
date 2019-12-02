@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+    <color name="colorPrimary">#63b931</color>
+
+    <color name="colorPrimaryDark">#63b931</color>
+
+    <color name="colorAccent">#63b931</color>
+
+    <color name="white">#fff</color>
+
+    <color name="black">#000</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="green_text">@color/colorPrimary</color>
+
+    <color name="gray_text">#cccccc</color>
+
+    <color name="discount_color">#e71717</color>
+
+    <color name="gradient_start_color">#7ec242</color>
+
+    <color name="gradient_center_color">#a0cc36</color>
+
+    <color name="gradient_end_color">#e7e01c</color>
+
+    <color name="gradient_start_color2">#6caf32</color>
+
+    <color name="gradient_center_color2">#94bf2c</color>
+
+    <color name="gradient_end_color2">#ccc615</color>
+
+    <color name="press_color">#55A825</color>
+
+    <color name="gray">#f5f5f5</color>
+
+    <color name="gray0">#fafafa</color>
+
+    <color name="gray1">#eeeeee</color>
+
+    <color name="gray2">#e0e0e0</color>
+
+    <color name="gray3">#bababa</color>
+
+    <color name="gray4">#616161</color>
+
+    <color name="color_press">#6b3895</color>
+
+    <color name="perm_color">#4d9cf9</color>
+
+    <color name="congratulation">#FFD15C</color>
+
+    <color name="gray_black">#212121</color>
+
+    <color name="color_black_trans">#99000000</color>
+    <color name="rate_bar">#FFEA00</color>
+
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/blue_cart"
+            android:padding="10dp"
+            android:tint="@color/colorPrimary"
+            />
+        <TextView
+            android:id="@+id/tv_not_dialog"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/not_edt_tv"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="13sp"
+            android:layout_margin="5dp"
+            />
+    </FrameLayout>
+
+
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+
+            >
+            <FrameLayout
+                android:id="@+id/fl_delete"
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:layout_marginStart="3dp"
+                android:layout_height="37dp"
+                tools:ignore="RtlCompat">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:clickable="false"
+                    android:longClickable="false"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/discount_color"
+                        android:textSize="16sp"
+                        android:text="@string/delete"
+                        android:layout_marginEnd="10dp"
+                        tools:ignore="RtlCompat"
+                        android:clickable="false"
+                        android:longClickable="false"
+                        />
+                    <ImageView
+                        android:id="@+id/image_arrow_continue"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/delete"
+                        android:padding="3dp"
+                        android:clickable="false"
+                        android:longClickable="false"
+                        />
+
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/fl_cancel"
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:layout_marginStart="3dp"
+                android:layout_height="37dp"
+                tools:ignore="RtlCompat">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:clickable="false"
+                    android:longClickable="false"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/gray3"
+                        android:textSize="16sp"
+                        android:text="@string/cancel"
+                        android:layout_marginEnd="10dp"
+                        tools:ignore="RtlCompat"
+                        android:clickable="false"
+                        android:longClickable="false"
+                        />
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/close_gray"
+                        android:padding="6dp"
+                        android:clickable="false"
+                        android:longClickable="false"
+                        />
+
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+

@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/user_icon"
+                android:padding="5dp"
+                android:tint="@color/colorPrimary"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:text="@string/personal_information"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <EditText
+                android:id="@+id/edt_first_name"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="37dp"
+                android:background="@drawable/edt_signup_bg"
+                android:inputType="text"
+                android:textColorHint="@color/gray_text"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:hint="@string/first_name"
+                android:layout_marginEnd="2dp"
+                android:singleLine="true"
+
+                tools:ignore="RtlCompat" />
+            <EditText
+                android:id="@+id/edt_last_name"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="37dp"
+                android:background="@drawable/edt_signup_bg"
+                android:inputType="text"
+                android:textColorHint="@color/gray_text"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:hint="@string/last_name"
+                android:layout_marginStart="2dp"
+                android:singleLine="true"
+
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/call_icon"
+                android:padding="5dp"
+                android:tint="@color/colorPrimary"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:text="@string/phone"
+                android:paddingStart="8dp"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@drawable/edt_signup_bg"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:text="+966"
+
+                />
+            <EditText
+                android:id="@+id/edt_phone"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/white"
+                android:hint="533332583"
+                android:textColorHint="@color/gray_text"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:inputType="phone"
+                android:textColor="@color/black"
+                android:singleLine="true"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/call_icon"
+                android:padding="5dp"
+                android:tint="@color/colorPrimary"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:text="@string/alternative_phone"
+                android:paddingStart="8dp"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@drawable/edt_signup_bg"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:text="+966"
+
+                />
+            <EditText
+                android:id="@+id/edt_alter_phone"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/white"
+                android:hint="533332583"
+                android:textColorHint="@color/gray_text"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:inputType="phone"
+                android:textColor="@color/black"
+                android:singleLine="true"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/address_icon"
+                android:padding="5dp"
+                android:tint="@color/colorPrimary"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:text="@string/address"
+                android:paddingStart="8dp"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_choose_address"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_login_bg"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:clickable="false"
+                android:longClickable="false"
+                >
+                <ImageView
+                    android:id="@+id/image_arrow1"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/arrow_left"
+                    android:padding="7dp"
+                    android:clickable="false"
+                    android:longClickable="false"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:clickable="false"
+                    android:longClickable="false"
+                    android:paddingStart="5dp"
+                    android:text="@string/select_location_from_map"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:maxLines="2"
+                    android:gravity="center_vertical"
+                    tools:ignore="RtlCompat" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <EditText
+            android:id="@+id/edt_street"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@drawable/edt_signup_bg"
+            android:inputType="text"
+            android:textColorHint="@color/gray_text"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:hint="@string/building_number_street_name"
+            android:layout_marginEnd="2dp"
+            android:singleLine="true"
+            android:layout_marginTop="8dp"
+
+            tools:ignore="RtlCompat" />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/edit"
+                android:padding="5dp"
+                android:tint="@color/colorPrimary"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:text="@string/any_feedback_for_delegate"
+                android:paddingStart="8dp"
+                tools:ignore="RtlCompat" />
+
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edt_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_feedback_bg"
+            android:gravity="top"
+            android:hint="@string/feedback"
+            android:inputType="text"
+            android:paddingBottom="8dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="8dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray_text"
+            android:textSize="14sp"
+            tools:ignore="RtlCompat" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:visibility="visible"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/clock_calender"
+                android:padding="5dp"
+                android:tint="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:text="@string/delivery_time"
+                android:paddingStart="8dp"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_date"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@drawable/btn_continue_bg"
+            android:visibility="visible"
+
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:clickable="false"
+                android:longClickable="false"
+
+                >
+                <ImageView
+                    android:id="@+id/image_arrow2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/arrow_left"
+                    android:padding="7dp"
+                    android:clickable="false"
+                    android:longClickable="false"
+                    />
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:paddingStart="5dp"
+                    android:text="@string/sel_delv_time"
+                    tools:ignore="RtlCompat"
+                    android:clickable="false"
+                    android:gravity="center_vertical"
+                    android:longClickable="false"
+                    android:maxLines="2"
+                    />
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/tag"
+                android:padding="5dp"
+                android:tint="@color/colorPrimary"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:text="@string/discount_coupon"
+                android:paddingStart="8dp"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@drawable/edt_signup_bg"
+            android:layoutDirection="ltr"
+            android:orientation="horizontal"
+            android:weightSum="3"
+
+            >
+
+
+                <Button
+                    android:id="@+id/btn_active"
+                    android:layout_width="0dp"
+                    android:layout_weight=".7"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/edt_coupon_bg_cover"
+                    android:textColor="@color/white"
+                    android:text="@string/active"
+                    android:gravity="center"
+                    android:visibility="invisible"
+                    />
+
+
+            <EditText
+                android:id="@+id/edt_coupon"
+                android:layout_width="0dp"
+                android:layout_weight="1.95"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/white"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                tools:ignore="RtlCompat"
+                android:enabled="false"
+
+                />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".35"
+                >
+                <ProgressBar
+                    android:id="@+id/progBar"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    />
+                <ImageView
+                    android:id="@+id/image_correct"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/correct"
+                    android:padding="5dp"
+                    android:visibility="gone"
+
+                    />
+                <ImageView
+                    android:id="@+id/image_in_correct"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/close2"
+                    android:padding="5dp"
+                    android:visibility="gone"
+
+                    />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_alert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/gray_text"
+            android:textSize="14sp"
+            android:visibility="gone"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/card"
+                android:padding="5dp"
+                android:tint="@color/colorPrimary"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:text="@string/payment"
+                android:paddingStart="8dp"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+            <LinearLayout
+                android:id="@+id/ll_visa"
+                android:layout_width="0dp"
+                android:layout_height="95dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/un_selected_payment"
+                android:visibility="invisible"
+
+                >
+                <ImageView
+                    android:id="@+id/image_visa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/visa_gray2"
+                    android:padding="15dp"
+                    android:clickable="false"
+                    android:longClickable="false"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_mada"
+                android:layout_width="0dp"
+                android:layout_height="95dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/un_selected_payment"
+                android:visibility="visible"
+                >
+
+                <ImageView
+                        android:id="@+id/image_mada"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="8dp"
+                        android:src="@drawable/mada_gay"
+                        android:padding="15dp"
+                        android:clickable="false"
+                        android:longClickable="false"
+                        />
+                </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_cash"
+                android:layout_width="0dp"
+                android:layout_height="95dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/un_selected_payment"
+
+                >
+                <ImageView
+                    android:id="@+id/image_cash"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/payment_gray"
+                    android:padding="8dp"
+                    android:clickable="false"
+                    android:longClickable="false"
+                    />
+                <TextView
+                    android:id="@+id/tv_cash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray3"
+                    android:text="نقدا Cash"
+                    android:clickable="false"
+                    android:longClickable="false"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <FrameLayout
+                android:id="@+id/fl_back"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="2dp"
+                android:layout_height="37dp"
+                android:background="@drawable/btn_back_bg"
+
+                android:layout_marginRight="2dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:clickable="false"
+                    android:longClickable="false"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/image_arrow_back"
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:clickable="false"
+                        android:longClickable="false"
+                        android:padding="7dp"
+                        android:src="@drawable/arrow_left" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:paddingStart="5dp"
+                        android:text="@string/back"
+                        tools:ignore="RtlCompat"
+                        android:clickable="false"
+                        android:longClickable="false"
+                        />
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/fl_continue"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginStart="3dp"
+                android:layout_height="37dp"
+                android:background="@drawable/btn_continue_bg"
+                tools:ignore="RtlCompat">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:clickable="false"
+                    android:longClickable="false"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:paddingStart="5dp"
+                        android:text="@string/continuee"
+                        tools:ignore="RtlCompat"
+                        android:clickable="false"
+                        android:longClickable="false"
+                        />
+                    <ImageView
+                        android:id="@+id/image_arrow_continue"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/arrow_right"
+                        android:padding="7dp"
+                        android:clickable="false"
+                        android:longClickable="false"
+                        />
+
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

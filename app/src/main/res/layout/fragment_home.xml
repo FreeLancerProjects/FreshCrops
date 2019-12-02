@@ -1,0 +1,355 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities_fragments.activity_home.client_home.activity.HomeActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:titleEnabled="false"
+
+
+            >
+
+            <FrameLayout
+                android:id="@+id/fragment_collapsing_container"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:layout_collapseMode="parallax"
+
+                >
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/pager"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha=".7"
+
+                        >
+
+
+                    </androidx.viewpager.widget.ViewPager>
+                    <com.google.android.material.tabs.TabLayout
+                        android:id="@+id/tab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="8dp"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:layout_marginBottom="20dp"
+                        app:tabGravity="center"
+                        app:tabIndicatorHeight="0dp"
+                        app:tabMode="scrollable"
+                        app:tabMaxWidth="8dp"
+                        app:tabMinWidth="8dp"
+                        app:tabBackground="@drawable/slider_tab_bg"
+                        >
+
+                    </com.google.android.material.tabs.TabLayout>
+                </FrameLayout>
+                <LinearLayout
+                    android:id="@+id/ll_search_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    >
+
+                    <ImageView
+                        android:id="@+id/image_logo"
+                        android:layout_width="130dp"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/logo_text2"
+
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/ll_search"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginLeft="65dp"
+                        android:layout_marginRight="65dp"
+                        android:background="@drawable/edt_search_bg"
+                        android:layoutDirection="ltr"
+                        android:orientation="horizontal"
+
+                        tools:ignore="UnusedAttribute">
+
+                        <FrameLayout
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/edt_search_bg_cover"
+                            android:clickable="false"
+                            android:longClickable="false"
+                            >
+
+                            <ImageView
+                                android:layout_width="35dp"
+                                android:layout_height="33dp"
+                                android:layout_gravity="center"
+                                android:padding="8dp"
+                                android:src="@drawable/search"
+                                android:clickable="false"
+                                android:longClickable="false"
+                                />
+                        </FrameLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="33dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="15dp"
+                            android:background="@color/white"
+                            android:hint="@string/search"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            tools:ignore="RtlCompat"
+                            android:gravity="center_vertical"
+                            android:clickable="false"
+                            android:longClickable="false"
+                            />
+
+                    </LinearLayout>
+
+                    <!--
+                                        <FrameLayout
+                                            android:id="@+id/fl_departments"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:layout_marginBottom="5dp"
+                                            android:background="@drawable/btn_sign_up_bg"
+                                            android:layout_gravity="center_horizontal"
+                                            android:paddingLeft="5dp"
+                                            android:paddingRight="5dp"
+                                            >
+
+                                            <LinearLayout
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:clickable="false"
+                                                android:longClickable="false"
+                                                android:orientation="horizontal">
+
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_gravity="center_vertical"
+                                                    android:clickable="false"
+                                                    android:longClickable="false"
+                                                    android:paddingLeft="3dp"
+                                                    android:paddingRight="3dp"
+                                                    android:text="@string/departments"
+                                                    android:textColor="@color/white"
+                                                    android:textSize="14sp" />
+                                                <ImageView
+                                                    android:id="@+id/image_arrow"
+                                                    android:layout_width="25dp"
+                                                    android:layout_height="25dp"
+                                                    android:clickable="false"
+                                                    android:longClickable="false"
+                                                    android:padding="5dp"
+                                                    android:src="@drawable/arrow_down" />
+
+                                            </LinearLayout>
+                                        </FrameLayout>
+                    -->
+
+                    <!--<net.cachapa.expandablelayout.ExpandableLayout
+                        android:id="@+id/expand_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:el_duration="1000"
+                        app:el_expanded="false"
+                        app:el_parallax=".5"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="8dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:weightSum="1"
+                            android:paddingLeft="30dp"
+                            android:paddingRight="30dp"
+                            >
+                            <FrameLayout
+
+                                android:id="@+id/fl_charging_card"
+                                android:layout_width="0dp"
+                                android:layout_weight=".5"
+                                android:layout_height="30dp"
+                                android:background="@drawable/btn_sign_up_bg"
+                                android:layout_marginEnd="3dp"
+                                tools:ignore="RtlCompat"
+                                android:visibility="gone"
+
+                                >
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_gravity="center"
+
+                                    >
+                                    <ImageView
+                                        android:layout_width="20dp"
+                                        android:layout_height="30dp"
+                                        android:src="@drawable/cart"
+                                        android:clickable="false"
+                                        android:longClickable="false"
+                                        android:padding="2dp"
+                                        />
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="@color/white"
+                                        android:textSize="14sp"
+                                        android:textStyle="bold"
+                                        android:layout_gravity="center_vertical"
+                                        android:text="Charging card"
+                                        android:clickable="false"
+                                        android:longClickable="false"
+                                        />
+                                </LinearLayout>
+
+                            </FrameLayout>
+                            <FrameLayout
+                                android:id="@+id/fl_food_department"
+                                android:layout_width="0dp"
+                                android:layout_weight=".5"
+                                android:layout_height="30dp"
+                                android:background="@drawable/btn_login_bg"
+                                android:layout_marginStart="3dp"
+
+                                tools:ignore="RtlCompat">
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_gravity="center"
+
+                                    >
+                                    <ImageView
+                                        android:layout_width="20dp"
+                                        android:layout_height="30dp"
+                                        android:src="@drawable/cart"
+                                        android:clickable="false"
+                                        android:longClickable="false"
+                                        android:padding="2dp"
+                                        />
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="@color/white"
+                                        android:textSize="14sp"
+                                        android:textStyle="bold"
+                                        android:layout_gravity="center_vertical"
+                                        android:text="@string/supermarket"
+                                        android:clickable="false"
+                                        android:longClickable="false"
+                                        />
+                                </LinearLayout>
+
+                            </FrameLayout>
+
+                        </LinearLayout>
+                    </net.cachapa.expandablelayout.ExpandableLayout>
+                    <ImageView
+                        android:id="@+id/image_collapse"
+                        android:layout_width="33dp"
+                        android:layout_height="33dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/btn_login_bg"
+                        android:src="@drawable/arrow_up"
+                        android:padding="8dp"
+                        android:visibility="gone"
+                        />-->
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolBar"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                app:contentInsetEnd="0dp"
+                app:contentInsetLeft="0dp"
+                app:contentInsetRight="0dp"
+                app:contentInsetStart="0dp"
+                app:layout_collapseMode="pin"
+                android:background="@color/colorPrimary"
+                android:visibility="invisible"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layoutDirection="ltr"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="طازجة"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/logo"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="23dp"
+                        android:layout_gravity="center_vertical"
+                        android:text="محاصيل"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:fitsSystemWindows="true"
+        android:fillViewport="true"
+        >
+        <FrameLayout
+            android:id="@+id/fragment_home_sub_fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            >
+        </FrameLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

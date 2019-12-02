@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/fl"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:background="@drawable/unselected_sub_category"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layoutDirection="ltr"
+    tools:ignore="UnusedAttribute">
+   <LinearLayout
+       android:id="@+id/ll_discount"
+       android:layout_width="50dp"
+       android:layout_height="30dp"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:background="@drawable/offer_bg2"
+       android:layout_gravity="end"
+       >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/white"
+           android:textSize="7sp"
+           android:text="@string/discount"
+           android:singleLine="true"
+           />
+
+       <TextView
+           android:id="@+id/tv_discount"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="8sp"
+           android:textColor="@color/white"
+           android:singleLine="true"
+           android:gravity="center"
+           android:layout_marginBottom="5dp"
+           />
+   </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/green_text"
+        android:textStyle="bold"
+        android:textSize="15sp"
+
+        />
+
+</FrameLayout>
+
