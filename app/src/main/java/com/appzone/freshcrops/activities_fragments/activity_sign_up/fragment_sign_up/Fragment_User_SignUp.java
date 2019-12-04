@@ -27,6 +27,7 @@ import com.appzone.freshcrops.share.Common;
 import com.appzone.freshcrops.singletone.UserSingleTone;
 import com.appzone.freshcrops.tags.Tags;
 
+import java.io.IOException;
 import java.util.Locale;
 
 import io.paperdb.Paper;
@@ -204,6 +205,11 @@ public class Fragment_User_SignUp extends Fragment {
                                 {
                                     Common.CreateSignAlertDialog(getActivity(),getString(R.string.phone_number_exists));
 
+                                }
+                                try {
+                                    Log.e("Erorr",response.code()+"_"+response.errorBody().string());
+                                } catch (IOException e) {
+                                    e.printStackTrace();
                                 }
                             }
                     }

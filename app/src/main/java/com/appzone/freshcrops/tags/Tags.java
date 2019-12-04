@@ -3,7 +3,7 @@ package com.appzone.freshcrops.tags;
 public class Tags {
     //http://dukkan.creativeshare.co/
     ///http://freshcrops.creativeshare.co/
-    public static final String base_url = "http://freshcrops.creativeshare.co/";
+    public static final String base_url = "http://mahaseel.creativeshare.sa/";
     public static final String IMAGE_URL = base_url+"storage/";
     public static final String session_login = "login";
     public static final String session_logout = "logout";
