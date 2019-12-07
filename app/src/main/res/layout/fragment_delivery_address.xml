@@ -24,7 +24,6 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginBottom="8dp"
-            android:visibility="gone"
             >
             <ImageView
                 android:layout_width="30dp"
@@ -48,7 +47,6 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:weightSum="2"
-            android:visibility="gone"
             >
             <EditText
                 android:id="@+id/edt_first_name"

@@ -209,6 +209,8 @@ public class Fragment_Review_Purchases extends Fragment {
     }
     private void UpdateTaxUI(int tax)
     {
+
+
         tv_tax.setText(new DecimalFormat("##.##").format(tax)+" %");
 
         net_total_order_price = getTotalOrderPrice(orderItemList);
@@ -231,12 +233,15 @@ public class Fragment_Review_Purchases extends Fragment {
                         if (response.isSuccessful())
                         {
                             dialog.dismiss();
+                            Log.e("taxx",response.code()+"");
                             if (response.body()!=null)
                             {
                                 tax = response.body().getProduct_tax();
                                 minimum_product_cost = response.body().getMinimum_client_order_price();
                                 UpdateTaxUI(tax);
                             }
+
+
                         }
                     }
 
