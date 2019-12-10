@@ -48,9 +48,11 @@ public class DepartmentAdapter extends RecyclerView.Adapter<DepartmentAdapter.My
         if (sparseBooleanArray.get(position))
         {
             holder.fl.setBackgroundResource(R.drawable.selected_sub_category);
+            holder.tv_name.setTextColor(context.getResources().getColor(R.color.white));
         }else
             {
                 holder.fl.setBackgroundResource(R.drawable.unselected_sub_category);
+                holder.tv_name.setTextColor(context.getResources().getColor(R.color.colorPrimary));
 
             }
 
